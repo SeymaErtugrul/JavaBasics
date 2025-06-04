@@ -5,6 +5,7 @@ import org.example.JavaExceptions.JavaTryCatch;
 import org.example.Lists.JavaArrayList;
 import org.example.Lists.JavaHashMap;
 import org.example.Lists.JavaHashSet;
+import org.example.Lists.JavaWrapper;
 
 import java.util.ArrayList;
 
@@ -27,5 +28,11 @@ public class Main {
         //Lambda
         JavaLambdaException lambdaException= new JavaLambdaException();
         lambdaException.tryLambdaFunc();
+        //Wrapper
+        JavaWrapper javaWrapper=new JavaWrapper();
+      System.out.println(javaWrapper.number);
+        System.out.println(javaWrapper.primitInt);
+        System.out.println(javaWrapper.numInt);
+
     }
 }
