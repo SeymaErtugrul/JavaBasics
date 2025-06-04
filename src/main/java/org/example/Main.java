@@ -1,5 +1,7 @@
 package org.example;
 import org.example.Enums.Gun;
+import org.example.JavaExceptions.JavaLambdaException;
+import org.example.JavaExceptions.JavaTryCatch;
 import org.example.Lists.JavaArrayList;
 import org.example.Lists.JavaHashMap;
 import org.example.Lists.JavaHashSet;
@@ -19,5 +21,11 @@ public class Main {
         //Hashmap
         JavaHashMap javaHashMap=new JavaHashMap();
         javaHashMap.tryHashMap();
+        //TryCatch
+        JavaTryCatch javaTryCatch =new JavaTryCatch();
+       // javaTryCatch.tryTryCatchFunc();
+        //Lambda
+        JavaLambdaException lambdaException= new JavaLambdaException();
+        lambdaException.tryLambdaFunc();
     }
 }
